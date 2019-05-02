@@ -13,8 +13,8 @@ with open('birthdays.csv',encoding="utf-8") as csvfile:
 			msg=msg+row['NAME']+'\n'
 
 print(msg)
-# se=SM.SendMsg(msg,"+918280041455")
+# se=SM.SendMsg(msg,"+Subscribed Number")
 # se.SendMessage()
 
-se=SWM.SendWhatsAppMsg(msg,"+918280041455")
+se=SWM.SendWhatsAppMsg(msg,"+Subscribed Number")
 se.SendMessage()
